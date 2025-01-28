@@ -1,0 +1,42 @@
+{
+  "name": "crypto-payment-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",        
+    "dev": "nodemon server.js"        
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faroukchebaiki/crypto-payment-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faroukchebaiki/crypto-payment-api/issues"
+  },
+  "homepage": "https://github.com/faroukchebaiki/crypto-payment-api#readme",
+  "description": "",
+  "dependencies": {
+    "@binance-chain/javascript-sdk": "^4.2.2",
+    "@solana/web3.js": "^1.98.0",
+    "axios": "^1.7.9",
+    "bitcoinjs-lib": "^6.1.7",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.5",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5",
+    "multicoin-address-validator": "^0.5.24",
+    "node-cron": "^3.0.3",
+    "xrpl": "^4.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.19.0",
+    "nodemon": "^3.1.9"
+  }
+}
